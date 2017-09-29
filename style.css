@@ -1,0 +1,39 @@
+head
+{
+	background-color: #000000;
+	text-align : left;
+	font-family: "Ariel"; 
+	color : white; 
+	font-size : 10000px; 
+}
+body
+{
+	background-color: #000000;
+	font-family: "New Times Roman"; 
+	color : white; 
+	font-size : 60px; 
+	text-align: center; 
+	
+}
+#tableDiv
+{
+	font-family: "New Times Roman"; 
+	margin-bottom : 70px
+	
+}
+#backgroundImage{
+	
+  background: url(img/img1.jpg); 
+  height: 210%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer 
+{
+	background-color: #000000;
+	text-align : left;
+	font-family: "Ariel"; 
+	color : white; 
+	font-size : 40px; 
+}

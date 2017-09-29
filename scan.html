@@ -1,0 +1,68 @@
+
+        <link rel ="stylesheet" type="text/css" href="style.css">         
+<html>
+    <head>
+<title> Attendence Log </title>
+</head>
+<p size= "1500px"><b>FBLA | MHS Coding Club Attendence Log</b></p>
+<style>
+    td, th {
+    text-align: center;
+    padding: 25px;
+}
+
+tr:nth-child(odd) {
+    background-color: purple;
+    size : 20px;
+}
+tr:nth-child(even) {
+    background-color: white;
+    color : black; 
+    size : 20px;
+}
+    </style>
+<body>
+        <div id = "backgroundImage"> 
+        <p><b>Scan I.D</b></p>
+        <input  type="number" size="5"  id="whatever" onchange = "Attendence()" autofocus/></form>
+        <div id="tableDiv"></div>
+<table align = "center"> 
+</tr>
+    <th>Name</th>
+<th>Attendance Status</th>
+</tr>
+<tr>
+<td><b>Anthony Cuadra</b></td>
+<td id = 'AC'></td>
+</tr>
+<tr>
+<td><b>Ethan Pham</b></td>
+<td id = 'EP'></td>
+</tr>
+<tr>
+<td><b>Joshua Pena</b></td>
+<td id = 'JP'></td>
+</tr>
+<tr>
+<td><b>Kayden Fernandez</b></td>
+<td id = 'KF'></td>
+</tr>
+<tr>
+<td><b>John Robert Day</b></td>
+<td id = 'JRD'></td>
+</tr>
+<tr>
+<td><b>Olivia Kobriger</b></td>
+<td id = 'OK'></td>
+</tr>
+</table>
+</body>
+<script src = "js.js"></script>
+<br></br>
+<div><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdL51EkMG3Q0y076fckL1zhYaF-si_KA5MefHftQZgl3jwD0Q/viewform?embedded=true" width="500" height="840" frameborder="0" marginheight="" marginwidth="0">Loading...</iframe></div>
+<br>
+<footer>
+    <p>Thanks to all the MHS Coding Club Officers for thier support and starting up our attendance log!</p>
+</footer>
+</br>
+</html>
